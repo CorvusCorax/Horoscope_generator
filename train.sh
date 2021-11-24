@@ -7,5 +7,5 @@ python3 transformers/examples/run_lm_finetuning.py \
     --do_eval \
     --per_gpu_train_batch_size=2 \
     --eval_data_file=valid.txt  \
-    --num_train_epochs=10 \
+    --num_train_epochs=20 \
     --save_steps=1000
